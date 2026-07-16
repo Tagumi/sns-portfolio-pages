@@ -72,12 +72,6 @@ export const siteContent = {
         link: "https://tagumi.github.io/kaguya-hp/",
       },
       {
-        title: "動画編集・広告画像制作",
-        category: "Canva",
-        description: "SNS向けの動画や広告制作を担当",
-        image: "/works/canva-portfolio.png",
-      },
-      {
         title: "EC・広告画像制作",
         category: "EC / 広告",
         description: "ブランドの世界観を伝えるEC・広告用画像を制作。",
