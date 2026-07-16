@@ -14,17 +14,14 @@ export default function Featured() {
             {featured.eyebrow}
           </p>
           <h2 className="font-serif text-3xl md:text-4xl text-ink mb-4">{featured.title}</h2>
-          <p className="max-w-xl text-sm leading-loose text-ink-soft font-light">
+          <p className="max-w-xl text-sm leading-loose text-ink-soft font-light mb-16 md:mb-20">
             {featured.description}
-          </p>
-          <p className="max-w-xl text-xs tracking-[0.1em] text-ink-soft/70 mt-3 mb-16 md:mb-20">
-            {featured.tools}
           </p>
         </Reveal>
 
         <div className="flex flex-wrap gap-x-10 gap-y-14">
           {featured.reels.map((reel, i) => (
-            <Reveal key={reel.title} delay={i * 100} className="w-full max-w-md">
+            <Reveal key={reel.title} delay={i * 100} className="w-full max-w-xl">
               <p className="mb-4 font-serif text-lg text-ink">{reel.title}</p>
               <div className="aspect-[9/16] bg-ink border border-line overflow-hidden">
                 <ReelVideo src={reel.video} />

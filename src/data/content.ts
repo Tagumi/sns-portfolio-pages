@@ -33,9 +33,8 @@ export const siteContent = {
   },
   featured: {
     eyebrow: "For This Position",
-    title: "本案件向けポートフォリオ",
+    title: "本案件向け作品",
     description: "今回ご紹介いただきましたお仕事に向けてサンプルを制作してみました。",
-    tools: "使用ツール：Kling.ai / CapCut / PhotoShop",
     reels: [{ title: "朝活リール", video: "/videos/asakatsu-reel.mp4" }],
     images: [] as FeaturedImage[],
   },
