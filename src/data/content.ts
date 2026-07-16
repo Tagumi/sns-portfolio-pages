@@ -14,7 +14,7 @@ type FeaturedImage = {
 };
 
 export const siteContent = {
-  name: "K.satoh",
+  name: "Tagumi",
   role: "Freelance Web Engineer / QA Engineer",
   roleJa: "フリーランスWebエンジニア / QAエンジニア",
   nav: [
@@ -152,6 +152,6 @@ export const siteContent = {
     eyebrow: "Contact",
     title: "お仕事のご相談は\nこちらから",
     description: "WordPressサイト構築、LP制作、品質保証（QA）、動画編集など、お気軽にご相談ください。",
-    email: "koyomi.satoh@gmail.com",
+    email: "michiko.ohtai@gmail.com",
   },
 };

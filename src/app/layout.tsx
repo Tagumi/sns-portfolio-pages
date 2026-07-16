@@ -21,7 +21,7 @@ const zenKaku = Zen_Kaku_Gothic_New({
 });
 
 export const metadata: Metadata = {
-  title: "K.satoh | Web Engineer & QA Portfolio",
+  title: "Tagumi | Web Engineer & QA Portfolio",
   description: "フリーランスWebエンジニア／QAエンジニアのポートフォリオ。Webサイト・LP制作から品質保証、動画編集まで。",
   robots: {
     index: false,
