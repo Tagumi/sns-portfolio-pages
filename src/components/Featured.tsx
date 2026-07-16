@@ -23,7 +23,7 @@ export default function Featured() {
           {featured.reels.map((reel, i) => (
             <Reveal key={reel.title} delay={i * 100} className="w-full max-w-xl">
               <p className="mb-4 font-serif text-lg text-ink">{reel.title}</p>
-              <div className="aspect-[9/16] bg-ink border border-line overflow-hidden">
+              <div className="aspect-[4/5] bg-ink border border-line overflow-hidden">
                 <ReelVideo src={reel.video} />
               </div>
             </Reveal>
