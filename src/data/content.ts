@@ -35,11 +35,7 @@ export const siteContent = {
     title: "本案件向けポートフォリオ",
     description: "今回ご紹介いただきましたお仕事に向けてサンプルを制作してみました。",
     tools: "使用ツール：Kling.ai / CapCut / PhotoShop",
-    reels: [
-      { title: "リールサンプル 01", video: "/videos/reel1.mp4" },
-      { title: "リールサンプル 02", video: "/videos/reel2.mp4" },
-      { title: "リールサンプル 03", video: "/videos/reel3_re.mp4" },
-    ],
+    reels: [{ title: "朝活リール", video: "/videos/asakatsu-reel.mp4" }],
     images: [
       { title: "EC画像サンプル01", image: "/works/product-4.png" },
       { title: "EC画像サンプル02", image: "/works/product-3.png", noBorder: true },

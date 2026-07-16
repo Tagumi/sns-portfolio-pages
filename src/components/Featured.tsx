@@ -22,9 +22,9 @@ export default function Featured() {
           </p>
         </Reveal>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-14 max-w-xl mx-auto sm:max-w-none lg:max-w-none">
+        <div className="flex flex-wrap justify-center gap-x-10 gap-y-14">
           {featured.reels.map((reel, i) => (
-            <Reveal key={reel.title} delay={i * 100}>
+            <Reveal key={reel.title} delay={i * 100} className="w-full max-w-xs">
               <p className="mb-4 font-serif text-lg text-ink">{reel.title}</p>
               <div className="aspect-[9/16] bg-ink border border-line overflow-hidden">
                 <ReelVideo src={reel.video} />
