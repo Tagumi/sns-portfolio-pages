@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+:root {
+  --ivory: #f8f4ec;
+  --ivory-soft: #f1ebdd;
+  --ink: #211d18;
+  --ink-soft: #756c5e;
+  --gold: #a3814f;
+  --line: #ded2b8;
+}
+
+@theme inline {
+  --color-ivory: var(--ivory);
+  --color-ivory-soft: var(--ivory-soft);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-gold: var(--gold);
+  --color-line: var(--line);
+  --font-serif: var(--font-shippori-mincho);
+  --font-serif-en: var(--font-cormorant);
+  --font-sans: var(--font-zen-kaku);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--ivory);
+  color: var(--ink);
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition:
+    opacity 0.9s cubic-bezier(0.16, 1, 0.3, 1),
+    transform 0.9s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Hide the browser's built-in large center play button so only our
+   custom play icon shows (avoids a duplicate icon on mobile Safari/Chrome).
+   Safari uses -start-playback-button; Chrome/Android use -overlay-play-button. */
+.custom-video-controls::-webkit-media-controls-start-playback-button,
+.custom-video-controls::-webkit-media-controls-overlay-play-button {
+  display: none !important;
+  -webkit-appearance: none;
+}
