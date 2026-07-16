@@ -5,6 +5,7 @@ type WorkItem = {
   description: string;
   link?: string;
   image?: string;
+  video?: string;
 };
 
 type FeaturedImage = {
@@ -75,6 +76,36 @@ export const siteContent = {
         category: "Canva",
         description: "SNS向けの動画や広告制作を担当",
         image: "/works/canva-portfolio.png",
+      },
+      {
+        title: "EC・広告画像制作",
+        category: "EC / 広告",
+        description: "ブランドの世界観を伝えるEC・広告用画像を制作。",
+        image: "/works/canva-portfolio.png",
+      },
+      {
+        title: "EC・広告画像制作",
+        category: "EC / 広告",
+        description: "商品訴求のためのEC・広告用画像を制作。",
+        image: "/works/product-3.png",
+      },
+      {
+        title: "リール動画制作",
+        category: "Kling.ai / CapCut",
+        description: "SNS向けのショート動画を企画・撮影・編集。",
+        video: "/videos/reel1.mp4",
+      },
+      {
+        title: "リール動画制作",
+        category: "Kling.ai / CapCut",
+        description: "SNS向けのショート動画を企画・撮影・編集。",
+        video: "/videos/reel3_re.mp4",
+      },
+      {
+        title: "A型看板画像制作",
+        category: "PhotoShop",
+        description: "店頭A型看板のデザイン・制作を担当。",
+        image: "/works/signboard-kaisen.png",
       },
       {
         title: "WordPressサイト構築",

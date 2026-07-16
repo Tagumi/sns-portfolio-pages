@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { siteContent } from "@/data/content";
 import Reveal from "./Reveal";
+import ReelVideo from "./ReelVideo";
 import { withBasePath } from "@/lib/basePath";
 
 export default function Works() {
@@ -51,6 +52,8 @@ export default function Works() {
                         </span>
                       </a>
                     </>
+                  ) : item.video ? (
+                    <ReelVideo src={item.video} />
                   ) : item.image ? (
                     <Image
                       src={withBasePath(item.image)}
