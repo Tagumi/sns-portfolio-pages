@@ -36,10 +36,7 @@ export const siteContent = {
     description: "今回ご紹介いただきましたお仕事に向けてサンプルを制作してみました。",
     tools: "使用ツール：Kling.ai / CapCut / PhotoShop",
     reels: [{ title: "朝活リール", video: "/videos/asakatsu-reel.mp4" }],
-    images: [
-      { title: "EC画像サンプル01", image: "/works/product-4.png" },
-      { title: "EC画像サンプル02", image: "/works/product-3.png", noBorder: true },
-    ] as FeaturedImage[],
+    images: [] as FeaturedImage[],
   },
   about: {
     eyebrow: "About",
